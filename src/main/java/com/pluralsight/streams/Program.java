@@ -1,6 +1,4 @@
-package com.pluralsight;
-
-import streams.Person;
+package com.pluralsight.streams;
 
 import java.util.ArrayList;
 import java.util.List;

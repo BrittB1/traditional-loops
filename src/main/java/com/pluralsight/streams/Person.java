@@ -1,4 +1,4 @@
-package streams;
+package com.pluralsight.streams;
 
 public class Person {
 
