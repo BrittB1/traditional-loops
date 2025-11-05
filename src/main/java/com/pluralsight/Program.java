@@ -50,5 +50,21 @@ public class Program {
         }
         double averageAge = (double) sum / people.size();
         System.out.println("Average age: " + averageAge);
+
+        int maxAge = 0;
+        for (Person p : people) {
+            if (p.getAge() > maxAge) {
+                maxAge = p.getAge();
+            }
+        }
+        System.out.println("Oldest person's age: " + maxAge);
+        int minAge = 0;
+        for (Person p : people) {
+            if (p.getAge() < minAge) {
+                minAge = p.getAge();
+            }
+        }
+        System.out.println("Youngest person's age: " + minAge);
+
     }
 }
